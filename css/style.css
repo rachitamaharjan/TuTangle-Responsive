@@ -1,0 +1,95 @@
+body{
+    font-family: 'Istok Web', sans-serif;
+}
+
+span{
+    display: inline-block;   
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-container-wrapper{
+    /* width: 1002px; */
+    /* height: 827px; */
+    background: #0000ff;
+}
+
+.navbar-container{
+
+}
+
+.navbar{
+    background: #7dd8e8;
+    padding: 1.187em 0 0.375em 0;
+}
+
+.navbar-contents{
+    max-width: 962px;
+    /* max-width: 60.125em; */
+}
+
+
+.navbar-contents-left h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.125em;
+    margin-top: -0.67rem;
+    font-weight: lighter;
+    color: #274f56;
+}
+
+.search-container-wrapper{
+    /* margin-left: 23px; */
+    margin: 1.25em 0em 0.56em 1.43em;
+}
+
+.search-container{
+    background: url(../img/search-input.png) no-repeat;
+}
+
+.search-container input{
+    margin-left: 0.5em;
+    /* width: 13.125em; */
+    width: 207px;
+    /* font-family: 'Istok Web', sans-serif; */
+    border: none;
+    background-color: transparent;
+    vertical-align: super;
+    font-size: 0.61em;
+}
+
+.search-container input:focus{
+    outline: none;
+}
+
+.search-button-container{
+    margin-left: 0.4375em;
+}
+
+.search-button{
+    background: #274f56;
+    height: 1.25em;
+}
+
+.search-button a {
+    font-size: 0.5em;
+    color: white;
+    line-height: 1.25em;
+    vertical-align: middle;
+}
+
+.navbar-contents-right{
+    text-align: right;
+    margin-top: 0.4375em;
+}
+
+.contents-top-right{
+    font-family: 'Mulish', sans-serif;
+    font-size: 0.9375em;
+    margin-bottom: 0.375em;
+}
+
+.contents-bottom-right{
+    font-size: 0.6875em;
+}

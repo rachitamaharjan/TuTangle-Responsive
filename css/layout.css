@@ -1,0 +1,15 @@
+/* .navbar-contents-left{
+    float: left;
+} */
+
+h1, .search-container-wrapper{
+    float: left;
+}
+
+/* .search-button-container img, .search-button{
+    float: left;
+} */
+
+.navbar-contents-right{
+    float: right;
+}
