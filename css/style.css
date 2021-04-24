@@ -24,7 +24,6 @@ a{
     /* max-width: 60.125em; */
 }
 
-
 .navbar-contents-left h1{
     font-family: 'Roboto Slab', serif;
     font-size: 3.125em;
@@ -126,15 +125,15 @@ a{
     width: 11.875em;
 }
 
-.search-topic{
+.list-topic{
     padding: 0.8em 0.7em;
-    font-size: 0.875em;
+    font-size: 1em;
     color: white;
     background: #2fc1d9;
     font-family: 'Mulish', sans-serif;
 }
 
-.search-contents{
+.list-contents{
     background: #f5f5f5;
     /* padding: 0.8125em 0.8125em 0.375em 0.6875em; */
 }
@@ -143,27 +142,37 @@ a{
     padding: 0 0.875rem 0 0.75rem;
 }
 
-.search-contents li{
-    padding: 10px 0;
+.list-contents li{
+    padding: 9px 0;
     /* margin-bottom: 0.625em; */
     font-size: 0.6875em;
 }
 
-.search-contents li:hover{
+.list-contents li:hover{
     background: #ffffff;
 }
 
-.left-search-top .search-contents span{
+.left-search-top .list-contents span{
     max-width: 100px;
 }
 
-.left-search-bottom .search-contents span{
+.left-search-bottom .list-contents span{
     max-width: 144px;
 }
 
-.left-search-bottom .search-contents img{
+.left-search-bottom .list-contents img{
     transform: translateY(50%);  
-
 }
 
+.main-contents-center{
+    margin-left: 24px;
+    /* max-width: 520px; */
+    width: 32.5em;
+    height: 606px;
+    background: rosybrown;
+}
+
+.main-contents-right{
+    width: 190px;
+}
 

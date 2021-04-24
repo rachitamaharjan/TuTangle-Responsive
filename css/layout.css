@@ -2,7 +2,7 @@
     float: left;
 } */
 
-h1, .search-container-wrapper, .menubar-contents-left, .main-contents-left, .main-contents-center, .search-contents li span{
+h1, .search-container-wrapper, .menubar-contents-left, .main-contents-left, .main-contents-center, .list-contents li span{
     float: left;
 }
 
@@ -10,6 +10,6 @@ h1, .search-container-wrapper, .menubar-contents-left, .main-contents-left, .mai
     float: left;
 } */
 
-.navbar-contents-right, .menubar-contents-right, .main-contents-right, .search-contents li img{
+.navbar-contents-right, .menubar-contents-right, .main-contents-right, .list-contents li img{
     float: right;
 }
