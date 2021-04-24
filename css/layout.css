@@ -2,7 +2,7 @@
     float: left;
 } */
 
-h1, .search-container-wrapper{
+h1, .search-container-wrapper, .menubar-contents-left{
     float: left;
 }
 
@@ -10,6 +10,6 @@ h1, .search-container-wrapper{
     float: left;
 } */
 
-.navbar-contents-right{
+.navbar-contents-right, .menubar-contents-right{
     float: right;
 }
