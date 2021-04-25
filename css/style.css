@@ -115,11 +115,12 @@ a{
 }
 
 .menubar-contents-right img{
-    vertical-align: -webkit-baseline-middle;
+    vertical-align: sub;
 }
 
 .menubar-contents-right>span{
     margin-left: 1.875em;
+    vertical-align: -webkit-baseline-middle;
 }
 
 .notifications{
@@ -206,14 +207,14 @@ h2{
     font-weight: 500;
 }
 
-h4{
+.menu-val{
     text-align: center;
     font-size: 0.75em;
     padding-bottom: 9px;
     font-weight: lighter;
 }
 
-h5{
+.tab-val{
     font-size: 0.6875em;;
     font-weight: lighter;
 }
@@ -264,6 +265,8 @@ h5{
     vertical-align: super;
     min-width: 5.5em;
     text-align: center;
+    /* font-size: 0.6875em;;
+    font-weight: lighter; */
 }
 
 .tab-img{
@@ -299,12 +302,12 @@ h5{
     margin-bottom: 0.18em;
 }
 
-#blue-hl{
+.blue-hl{
     color: #309eb0;
     font-weight: bold;
 }
 
-#green-hl{
+.green-hl{
     color: #709620;
     font-weight: bold;
 }
