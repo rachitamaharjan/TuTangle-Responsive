@@ -322,3 +322,16 @@ h2{
     background: #aaaaaa;
     margin-top: 0.9375em;
 }
+
+.footer-container{
+    margin-top: 2em;
+    background: #727272;
+    height: 2.8125em;
+    vertical-align: middle;
+    padding: 1em 0;
+    color: #d4d4d4;
+}
+
+.footer-left, .footer-right{
+    font-size: 0.5625em;
+}
