@@ -21,7 +21,6 @@ a{
 
 .contents{
     max-width: 58.75em;
-    /* max-width: 60.125em; */
 }
 
 .navbar-contents-left h1{
@@ -33,7 +32,6 @@ a{
 }
 
 .search-container-wrapper{
-    /* margin-left: 23px; */
     margin: 1.25em 0em 0.56em 1.43em;
 }
 
@@ -43,9 +41,7 @@ a{
 
 .search-container input{
     margin-left: 0.6em;
-    /* width: 13.125em; */
     width: 207px;
-    /* font-family: 'Istok Web', sans-serif; */
     border: none;
     background-color: transparent;
     transform: translateY(-55%);
@@ -105,7 +101,6 @@ a{
 
 .menubar-contents-left{
     margin-left: 0.5625em;
-    /* padding: 0.875em 0 0.875em 0.5625em; */
     font-size: 0.81em;
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -154,7 +149,6 @@ a{
 .list-contents{
     padding: 0.3125em 0;
     background: #f5f5f5;
-    /* padding: 0.8125em 0.8125em 0.375em 0.6875em; */
 }
 
 #list-col1-row2{
@@ -171,12 +165,12 @@ a{
 
 .list-contents li{
     padding: 0.625em 0;
-    /* margin-bottom: 0.625em; */
     font-size: 0.6875em;
 }
 
 .list-contents li:hover{
     background: #ffffff;
+    cursor: pointer;
 }
 
 .left-search-top .list-contents span{
@@ -188,7 +182,7 @@ a{
 }
 
 .left-search-bottom .list-contents img{
-    transform: translateY(50%);  
+    transform: translateY(60%);  
 }
 
 .main-contents-center-wrapper{
@@ -198,15 +192,11 @@ a{
 
 .main-contents-center{
 
-    /* margin-left: 1.5em; */
-    /* max-width: 520px; */
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin: 0 1.6875em;
     width: 32.5em;
-    /* height: 606px; */
-    /* background: rgb(202, 188, 188); */
 }
 
 .main-contents-right{
@@ -273,8 +263,6 @@ h5{
     height: 65px;
 }
 
-/* center-menu-bar-items */
-
 .center-menu-bar-right .center-menu-bar-items>span{
     margin-left: 10px;
 }
@@ -282,10 +270,6 @@ h5{
 .tab-1{
     margin-right: 10px;
 }
-
-/* .center-menu-bar-left .center-menu-bar-items>span{
-    margin-right: 10px;
-} */
 
 .center-menu-bar-items>span{
     vertical-align: middle;
