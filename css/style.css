@@ -12,6 +12,7 @@ span{
 
 a{
     text-decoration: none;
+    color: unset;
 }
 
 .navbar{
@@ -54,6 +55,7 @@ a{
 
 .search-button-container{
     margin-left: 0.4375em;
+    height: 1.25em;
 }
 
 .search-button-left{
@@ -106,7 +108,7 @@ a{
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-.menubar-contents-left span{
+.menubar-contents-left a{
     margin-right: 1.875em;
 }
 
@@ -163,6 +165,8 @@ a{
 
 .search-list{
     padding: 0 0.875em 0 0.85em;
+    color: black;
+    display: block;
 }
 
 .list-contents li{
