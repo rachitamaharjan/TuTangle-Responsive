@@ -310,6 +310,10 @@ h2{
     text-align: center;
 }
 
+.footer-left a {
+    color: #d4d4d4;
+}
+
 .footer-right{
     /* display: block; */
     text-align: center;
@@ -683,7 +687,6 @@ h2{
 
     .footer-left span, .footer-left a{
         display: inline;
-        color: #d4d4d4;
     }
     
 }
