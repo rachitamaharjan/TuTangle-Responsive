@@ -15,8 +15,15 @@ h1, .search-container-wrapper, .menubar-contents-left, .main-contents-left, .mai
     float: right;
 }
 
+@media(min-width:769px){
+    .main-contents-center {
+        /* float: left; */
+    }
+}
+
 @media(min-width:992px){
     .main-container-img{
         float: left;
     }
+
 }
