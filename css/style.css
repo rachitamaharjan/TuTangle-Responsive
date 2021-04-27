@@ -137,7 +137,7 @@ body{
 
     .list-contents li{
         padding: 0.625em 0;
-        font-size: 0.6875em;
+        font-size: 0.8125em;    
     }
 
     .list-contents li:hover{
@@ -168,7 +168,16 @@ body{
     } */
 
     .main-contents-right{
-        width: 10.9375em;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-contents-right .list-contents{
+        display: unset;
+    }
+    
+    .left-search-bottom, .list-contents{
+        display: none;
     }
 
     h2{
@@ -303,51 +312,22 @@ body{
     }
 
     .footer-left, .footer-right{
-        font-size: 0.8125em;
+        font-size: 0.744em;
         line-height: 1.65em;
         float: none;
         text-align: center;
     }
 
-    .footer-left a{
-        display: block;
+    .footer-right{
+        /* display: block; */
+        text-align: center;
+        float: none;
     }
 
     .footer-left span{
-        display: none;
+        /* display: none; */
     }
 /* } */
-
-@media(max-width:768px){
-
-    
-
-    .main-contents-center {
-        /* width: unset; */
-    }
-
-    /* .contents-top-right, .contents-bottom-right{
-        display: none;
-    } */
-
-    /* .notifications{
-        display: none;
-    } */
-
-    /* .menubar-contents-left>a{
-        display: none;
-    } */
-
-    /* .main-contents-left {
-        width: 100%;
-        text-align: center;
-    } */
-
-    .left-search-bottom, .list-contents{
-        display: none;
-    }
-
-}
 
 /* @media(min-width:769px){
 /* @media(min-width:769px) and (max-width:991px){ */
