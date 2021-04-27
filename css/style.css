@@ -99,13 +99,16 @@ body{
     }
 
     .main-container{
-        margin-top: 1.875em;
+        margin-top: 1em;
     }
-
 
     .main-contents-left {
         width: 100%;
         text-align: center;
+    }
+
+    .main-contents-right .list-topic{
+        margin-top: 30px;
     }
 
     .list-topic{
@@ -126,7 +129,7 @@ body{
     }
 
     #list-col3{
-        min-height: 35.25em;
+        min-height: unset;
     }
 
     .search-list{
@@ -158,14 +161,10 @@ body{
         width: 12.5em;
     }
 
-    /* .main-contents-center{
-
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin: 0 1.6875em;
-        width: 32.5em;
-    } */
+    .main-contents-center{
+        width: 100%;
+        margin-top: 20px;
+    }
 
     .main-contents-right{
         width: 100%;
@@ -173,7 +172,7 @@ body{
     }
 
     .main-contents-right .list-contents{
-        display: unset;
+        display: block;
     }
     
     .left-search-bottom, .list-contents{
@@ -189,26 +188,31 @@ body{
 
     .menu-val{
         text-align: center;
-        font-size: 0.75em;
-        padding-bottom: 9px;
+        font-size: 0.85em;        
+        padding-bottom: 7px;        
         font-weight: lighter;
     }
 
     .tab-val{
-        font-size: 0.6875em;;
+        font-size: 0.7875em;        
         font-weight: lighter;
     }
 
     .horizontal-line{
         background-color: #2fc1da;
         height: 0.16em;
+        margin-top: -0.40em;
+    }
+
+    .center-menu-bar-container{
+        /* display: none; */
     }
 
     .center-menu-bar-contents{
         background: #f5f5f5;
         height: 65px;
         display: inline-block;
-        width: 15.5625em;
+        /* width: 96%; */
 
     }
 
@@ -223,7 +227,11 @@ body{
     }
 
     .center-menu-bar{
-        height: 4.0625em;
+        /* height: 4.0625em; */
+    }
+
+    .center-menu-bar-items{
+        display: block;
     }
 
     .center-menu-bar-right .center-menu-bar-items>span{
@@ -232,6 +240,10 @@ body{
 
     .tab-1{
         margin-right: 0.625em;
+    }
+
+    #tab-3{
+        margin-left: 0;
     }
 
     .center-menu-bar-items>span{
@@ -243,8 +255,8 @@ body{
 
     .tab-title{
         vertical-align: super;
-        min-width: 5.5em;
         text-align: center;
+        min-width: 8.325em;
         /* font-size: 0.6875em;;
         font-weight: lighter; */
     }
@@ -262,16 +274,17 @@ body{
         padding-top: 0.9375em;
     }
 
-    .list-content-wrapper{
+    /* .list-content-wrapper{
         height: 4.375em;
-    }
+    } */
 
     .list-content{
-        margin-left: 9px;
         vertical-align: top;
         font-family: 'Istok Web', sans-serif;
         color: #5c5c5c;
         font-size: 0.6875em;
+        float: none;
+        padding-left: 80px;
     }
 
     .list-title{
@@ -300,7 +313,7 @@ body{
     .list-horizontal-line{
         height: 0.0625em;
         background: #aaaaaa;
-        margin-top: 0.9375em;
+        margin-top: 0.5em;
     }
 
     .footer-container{
@@ -329,7 +342,11 @@ body{
     }
 /* } */
 
-/* @media(min-width:769px){
+ @media(min-width:769px){
+    .menubar-icon-temp{
+        /* display: none; */
+    }
+ }
 /* @media(min-width:769px) and (max-width:991px){ */
     /* @media(max-width:991px){ */
 
@@ -387,10 +404,7 @@ body{
         }
 
         .main-contents-center{
-
             display: block;
-            margin-left: auto;
-            margin-right: auto;
             margin: 0 1.6875em;
             width: 32.5em;
         }
@@ -402,7 +416,7 @@ body{
         .navbar-contents-left h1{
             font-family: 'Roboto Slab', serif;
             font-size: 3.125em;
-            margin-top: -11px;
+            margin-top: -17px;
             font-weight: 200;
             color: #274f56;
         }
@@ -526,14 +540,6 @@ body{
             text-align: unset;
         }
     
-        .list-topic{
-            padding: 0.8em 0.7em;
-            font-size: 0.97em;
-            color: white;
-            background: #2fc1d9;
-            font-family: 'Mulish', sans-serif;
-        }
-    
         .list-contents{
             padding: 0.3125em 0;
             background: #f5f5f5;
@@ -552,6 +558,10 @@ body{
             color: black;
             display: block;
         }
+
+        .main-contents-right .list-topic{
+            margin-top: 0;
+        }
     
         .list-contents li{
             padding: 0.625em 0;
@@ -569,6 +579,11 @@ body{
     
         .left-search-bottom .list-contents span{
             max-width: 144px;
+
+        }
+
+        .list-contents, .left-search-bottom{
+            display: block;
         }
     
         .main-contents-center-wrapper{
@@ -587,6 +602,7 @@ body{
     
         .main-contents-right{
             width: 10.9375em;
+            text-align: unset;
         }
     
         h2{
@@ -597,20 +613,18 @@ body{
         }
     
         .menu-val{
-            text-align: center;
             font-size: 0.75em;
             padding-bottom: 9px;
-            font-weight: lighter;
         }
     
         .tab-val{
             font-size: 0.6875em;;
-            font-weight: lighter;
         }
     
         .horizontal-line{
             background-color: #2fc1da;
             height: 0.16em;
+            margin: 0;
         }
     
         .center-menu-bar-contents{
@@ -631,6 +645,10 @@ body{
             vertical-align: top;
         }
     
+        .menubar-icon-temp{
+            display: none;
+        }
+
         .center-menu-bar{
             height: 4.0625em;
         }
@@ -638,8 +656,20 @@ body{
         .center-menu-bar-right .center-menu-bar-items>span{
             margin-left: 0.625em;
         }
+
+        .center-menu-bar-items{
+            display: inline;
+        }
     
         .tab-1{
+            margin-right: 0.625em;
+        }
+
+        #tab-3{
+            margin-left: 0.625em;
+        }
+
+        .tab-2{
             margin-right: 0.625em;
         }
     
@@ -651,9 +681,7 @@ body{
         }
     
         .tab-title{
-            vertical-align: super;
             min-width: 5.5em;
-            text-align: center;
             /* font-size: 0.6875em;;
             font-weight: lighter; */
         }
@@ -707,8 +735,6 @@ body{
         }
     
         .list-horizontal-line{
-            height: 0.0625em;
-            background: #aaaaaa;
             margin-top: 0.9375em;
         }
     

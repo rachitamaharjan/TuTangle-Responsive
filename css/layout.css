@@ -1,8 +1,22 @@
 
-h1, .search-container-wrapper, .menubar-contents-left, .main-contents-left, .main-contents-center, .center-menu-bar-left, .main-container-img, .list-content, .footer-left{
+h1, .search-container-wrapper, .menubar-contents-left, .main-contents-left, .main-contents-center, .center-menu-bar-left, .list-content, .footer-left{
     float: left;
 }
 
 .navbar-contents-right, .menubar-contents-right, .main-contents-right, .search-contents li img, .search-list img, .center-menu-bar-right, .footer-right{
     float: right;
+}
+
+.main-container-img, .tab-1{
+    float: left;
+}
+
+.tab-2{
+    float: right;
+}
+
+@media(min-width:992px){
+    .main-container-img{
+        float: left;
+    }
 }

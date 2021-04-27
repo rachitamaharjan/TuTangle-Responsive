@@ -20,7 +20,7 @@
                     <div class="navbar-contents-left">
                         <h1>TuTangle</h1>
                         <span class="search-container-wrapper">
-                            <a class="search-alt"><img src="img/search-button-icon.png" alt=""/></a>
+                            <!-- <a class="search-alt"><img src="img/search-button-icon.png" alt=""/></a> -->
                             <span class="search-container">
                                 <input type="text" class="search-input" placeholder="Search by Term, Member, or Entry Title"/>
                                 <a href="#">
@@ -47,6 +47,7 @@
                         </span>
                     </div>
                     <div class="navbar-contents-right">
+                        <a class="search-alt"><img src="img/search-button-icon.png" alt=""/></a>
                         <a href="#" class="top-right-collapsible"><img src="img/user-profile-icon.png" alt=""/></a>
                         <a href="#" class="contents-top-right">Joe Burros</a>
                         <div class="contents-bottom-right">
@@ -176,7 +177,7 @@
                                     </span><!--
                                  --><div class="center-menu-bar-contents">
                                         <p class="menu-val">All Entries</p>
-                                        <span class="center-menu-bar-items">
+                                        <span class="center-menu-bar-items clearfix">
                                             <span id="active" class="tab-1">
                                                 <span class="tab-img"><img src="img/center-menubar-active-left.png" alt=""></span><!-- 
                                              --><span class="tab-title"><span class="tab-val">All Members</span></span><!-- 
@@ -188,13 +189,19 @@
                                              --><span class="tab-img"><img src="img/center-menubar-inactive-right.png" alt=""></span>
                                             </span>
                                         </span>
-                                    </div>
+                                    </div><!--
+                                 --><span class="menubar-icon-temp"> 
+                                        <img src="img/center-menubar-right.png" alt="">
+                                    </span>
                                 </div>
                                 <div class="center-menu-bar-right">
-                                    <div class="center-menu-bar-contents">
+                                <span class="menubar-icon-temp"> 
+                                        <img src="img/center-menubar-left.png" alt="">
+                                    </span><!--
+                                 --><div class="center-menu-bar-contents">
                                         <p class="menu-val">Subscribed</p>
                                         <span class="center-menu-bar-items">
-                                            <span class="tab-3">
+                                            <span class="tab-3" id="tab-3">
                                                 <span class="tab-img"><img src="img/center-menubar-inactive-left.png" alt=""></span><!-- 
                                              --><span class="tab-title"><span class="tab-val">New Entries</span></span><!-- 
                                              --><span class="tab-img"><img src="img/center-menubar-inactive-right.png" alt=""></span>
