@@ -1,9 +1,9 @@
 
-h1, .search-container-wrapper, .menubar-contents-left, .main-contents-left, .main-contents-center, .center-menu-bar-left, .list-content, .footer-left{
+h1, .search-container-wrapper, .menubar-contents-left, .main-contents-left, .main-contents-center, .list-content, .footer-left{
     float: left;
 }
 
-.navbar-contents-right, .menubar-contents-right, .main-contents-right, .search-contents li img, .search-list img, .center-menu-bar-right, .footer-right{
+.navbar-contents-right, .menubar-contents-right, .main-contents-right, .search-contents li img, .search-list img, .footer-right{
     float: right;
 }
 
@@ -11,19 +11,31 @@ h1, .search-container-wrapper, .menubar-contents-left, .main-contents-left, .mai
     float: left;
 }
 
-.tab-2{
+.tab-2, .tab-4{
     float: right;
 }
 
-@media(min-width:769px){
-    .main-contents-center {
-        /* float: left; */
+.center-menu-bar-left, .center-menu-bar-right{
+    float: none;
+}
+
+@media(min-width:727px){
+    .center-menu-bar-left {
+        float: left;
+    }
+
+    .center-menu-bar-right{
+        float: right;
     }
 }
 
 @media(min-width:992px){
     .main-container-img{
         float: left;
+    }
+
+    .center-menu-bar-right{
+        float: right;
     }
 
 }

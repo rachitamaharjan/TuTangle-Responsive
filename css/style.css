@@ -106,7 +106,7 @@ a{
 }
 
 .list-topic{
-    padding: 0.8em 0.7em;
+    padding: 0.5em 0.7em;
     font-size: 0.97em;
     color: white;
     background: #2fc1d9;
@@ -208,11 +208,15 @@ h2{
 .center-menu-bar-left .center-menu-bar-contents{
     padding: 0.625em 0 0.625em 0;
     vertical-align: top;
+    text-align: center;
+    /* width: 95%; */
 }
 
 .center-menu-bar-right .center-menu-bar-contents{
     padding: 0.625em 0 0.625em 0;
     vertical-align: top;
+    text-align: center;
+    /* width: 95%; */
 }
 
 .center-menu-bar-items{
@@ -320,6 +324,28 @@ h2{
     float: none;
 }
 
+.list-topic>img{
+    /* display: none; */
+    float: right;
+}
+
+.center-menu-bar-left, .center-menu-bar-right{
+    text-align: center;
+   }
+
+
+ /* @media screen and (min-width: 481px){
+     .center-menu-bar-left .center-menu-bar-contents{
+         width: unset;
+        }
+        
+        .center-menu-bar-right .center-menu-bar-contents{
+            width: unset;
+        }
+        
+} */
+ 
+
  @media screen and (min-width: 769px){
 
     .search-container-wrapper {
@@ -397,6 +423,10 @@ h2{
         text-align: left;
     }
 
+    .list-topic>img{
+        display: none;
+    }
+
     .list-contents, .left-search-bottom{
         display: block;
     }
@@ -423,6 +453,10 @@ h2{
         display: inline-block;
         width: 14.5625em;
 
+    }
+
+    .horizontal-line {
+        margin: 0;
     }
 
     .center-menu-bar-left .center-menu-bar-contents{
