@@ -5,12 +5,11 @@
 
 Mobile View             |  Tablet View
 :-------------------------:|:-------------------------:
-![mobile_view](https://user-images.githubusercontent.com/28466502/116322405-c0d82800-a7db-11eb-926e-ceae648eeb38.png) | ![tablet_view](https://user-images.githubusercontent.com/28466502/116322541-fe3cb580-a7db-11eb-8a2f-53cfad9cc07c.png)
+![mobile_view](https://user-images.githubusercontent.com/28466502/116394963-3e834e80-a843-11eb-8021-18ed609693ee.png) | ![tablet_view](https://user-images.githubusercontent.com/28466502/116394984-43e09900-a843-11eb-828d-793356d2be35.png)
 
-|Desktop View|
-:------------:
-![desktop_view](https://user-images.githubusercontent.com/28466502/116322667-3643f880-a7dc-11eb-8b5b-b337e57b3ac5.png)
-
+Smaller Screens | Larger Screens
+:-------------------------:|:-------------------------:
+![small_screens](https://user-images.githubusercontent.com/28466502/116394997-46db8980-a843-11eb-97d9-85e65f1a3f93.png) | ![larger-screens](https://user-images.githubusercontent.com/28466502/116395005-493de380-a843-11eb-95ac-86c44be2091e.png)
 
 
 ## [Live Demo](https://smilerac.github.io/TuTangle-Responsive/)
